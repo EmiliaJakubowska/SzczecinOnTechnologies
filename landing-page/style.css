@@ -56,3 +56,21 @@ padding: 14px 20px;
     cursor: pointer;
     margin: 5px;
 }
+#main_background{
+display: flex;
+justify-content: center;
+   flex-direction: column;
+   flex-grow: 1.5;
+
+}
+#main_background img {
+  max-width: 100%;
+  position: relative;
+}
+#main_background .btn_download{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+}
